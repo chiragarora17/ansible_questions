@@ -1,0 +1,11 @@
+-
+  hosts: localhost
+  vars:
+      fruits:
+        - Apple
+        - Banana
+        - Grapes
+        - Orange
+  tasks:
+    -
+      command: echo "Apple"
